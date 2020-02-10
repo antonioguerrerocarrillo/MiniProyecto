@@ -1,0 +1,17 @@
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\bin\Debug\VideoForms.exe.config
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\bin\Debug\VideoForms.exe
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\bin\Debug\VideoForms.pdb
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.FirstCustomControl.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.Form1.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.Properties.Resources.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.csproj.GenerateResource.cache
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.exe
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.pdb
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControl1.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControprueba.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControl2.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlPollo.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlCesta.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlEnsaladas.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlFactura.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlFacturaBuena.resources

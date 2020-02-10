@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{268CD295-8BD9-438D-A2EC-5AC8AD9609C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VideoForms</RootNamespace>
+    <AssemblyName>VideoForms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FirstCustomControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstCustomControl.Designer.cs">
+      <DependentUpon>FirstCustomControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlCesta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlCesta.Designer.cs">
+      <DependentUpon>UserControlCesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlEnsaladas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlEnsaladas.Designer.cs">
+      <DependentUpon>UserControlEnsaladas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlFactura.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlFactura.Designer.cs">
+      <DependentUpon>UserControlFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlFacturaBuena.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlFacturaBuena.Designer.cs">
+      <DependentUpon>UserControlFacturaBuena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPollo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlPollo.Designer.cs">
+      <DependentUpon>UserControlPollo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControprueba.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControprueba.Designer.cs">
+      <DependentUpon>UserControprueba.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FirstCustomControl.resx">
+      <DependentUpon>FirstCustomControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlCesta.resx">
+      <DependentUpon>UserControlCesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlEnsaladas.resx">
+      <DependentUpon>UserControlEnsaladas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlFactura.resx">
+      <DependentUpon>UserControlFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlFacturaBuena.resx">
+      <DependentUpon>UserControlFacturaBuena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlPollo.resx">
+      <DependentUpon>UserControlPollo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControprueba.resx">
+      <DependentUpon>UserControprueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39_85225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows_icon-icons.com_62797.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486505264-food-fork-kitchen-knife-meanns-restaurant_81404.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564398-menu2_81519.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deliveryvan-115860_115809.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pizza_icon-icons.com_68706.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usd-crypto-cryptocurrency-cryptocurrencies-cash-money-bank-payment_95707.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About_Us-80_icon-icons.com_57384.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\social_facebook_box_blue_256_30649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491579542-yumminkysocialmedia22_83078.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491580635-yumminkysocialmedia26_83102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486486303-alert-bell-notification-education-christmas-bell-church-bell-ring_81235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings_30027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systemshutdown_103390.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign-question-icon_34359.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoppingcart_77968.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoppingcart_77968 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherry_122983.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburguesa vegetal de brocoli.-2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64_85306.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\427DCB5200000578-4711194-image-a-23_1500478698184.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alitas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32382hamburger_98925.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32395greensalad_98843.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\col.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ensaladPollo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cesar.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

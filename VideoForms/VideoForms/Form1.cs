@@ -40,6 +40,7 @@ namespace VideoForms {
         private void sumar () {
             subtotal = UserControlPollo.subtotal + UserControl2.getsubtotal() + UserControl1.getsubtotal() + UserControlEnsaladas.getsubtotal();
             textBox1.Text = subtotal.ToString();
+            ClassFactura.Total = subtotal;
         }
         private void button1_Click (object sender, EventArgs e) {
             SidePanel.Height = button4.Height;
@@ -135,6 +136,10 @@ namespace VideoForms {
         }
         private void userControlEnsaladas1_Load (object sender, EventArgs e) {
             sumatoria += 1;
+        }
+
+        private void toolTip1_Popup (object sender, PopupEventArgs e) {
+
         }
 
         private void userControlPollo1_Load_2 (object sender, EventArgs e) {

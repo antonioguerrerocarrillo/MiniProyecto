@@ -89,12 +89,16 @@ namespace VideoForms {
 
         private void Pagar_Click (object sender, EventArgs e) {
             UserControlFacturaBuena bb = new UserControlFacturaBuena();
+            FormFacturas ff = new FormFacturas(total, UserControlPollo.getcantidad(), "nombre pollo");
+            ff.Visible = true;
 
         }
 
         private void button1_Click (object sender, EventArgs e) {
             UserControlFacturaBuena bb = new UserControlFacturaBuena();
-          
+            FormFacturas ff = new FormFacturas(total, UserControlPollo.getcantidad(), "nombre pollo");
+            ff.Visible = true;
+
         }
     }
 }

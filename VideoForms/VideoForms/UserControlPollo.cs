@@ -29,7 +29,7 @@ namespace VideoForms {
        public void setcantidad (int can) {
             cantidad = can;
         }
-        public static double getcantidad () {
+        public static int getcantidad () {
             return cantidad;
         }
         private void button3_Click (object sender, EventArgs e) {

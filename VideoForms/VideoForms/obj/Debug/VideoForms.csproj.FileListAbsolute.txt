@@ -15,3 +15,5 @@ C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserContr
 C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlEnsaladas.resources
 C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlFactura.resources
 C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.UserControlFacturaBuena.resources
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.csprojAssemblyReference.cache
+C:\Users\cuvil\source\repos\VideoForms\VideoForms\obj\Debug\VideoForms.FormFacturas.resources
